@@ -1,0 +1,90 @@
+.academics {
+  background-color: #f8f9fa;
+  padding: 5rem 2rem;
+  font-family: 'Outfit', sans-serif;
+  color: #333;
+}
+
+.academics-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.academics-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 3px solid #ccc;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 5px;
+  left: -11px;
+  width: 18px;
+  height: 18px;
+  background: #333;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px #ccc;
+}
+
+.timeline-content {
+  padding-left: 1rem;
+}
+
+.timeline-institution {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-details {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.timeline-status {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.timeline-status.ongoing {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.timeline-status.completed {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline {
+    border-left: 2px solid #ccc;
+    padding-left: 1rem;
+    margin-left: 10px;
+  }
+
+  .timeline-institution {
+    font-size: 1.1rem;
+  }
+}
