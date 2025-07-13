@@ -19,7 +19,7 @@ const blogPosts = [
     description:
       "From backend setup to frontend polish—how I built MealMate and what I learned about Flask, React, and APIs.",
     image: blog3image,
-    link: "https://hashnode.com/@Hibby",
+    link: "https://how-i-started-my-dev-journey.hashnode.dev/building-my-first-full-stack-app-the-edulink-journey",
   },
   {
     title: "UI/UX Tips I Wish I Knew Earlier",
