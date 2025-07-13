@@ -1,13 +1,22 @@
 .projects {
-  background: #fff;
   padding: 5rem 2rem;
   font-family: 'Outfit', sans-serif;
-  color: #333;
+  color: #fff; 
+  background: transparent; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .projects-container {
   max-width: 1000px;
   margin: 0 auto;
+  backdrop-filter: blur(6px); 
+  background: rgba(0, 0, 0, 0.3);
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .projects-title {
@@ -15,6 +24,7 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 3rem;
+  color: #fff;
 }
 
 .project-grid {
@@ -24,34 +34,37 @@
 }
 
 .project-card {
-  background: #f8f9fa;
+  background: rgba(255, 255, 255, 0.08); /* ✅ light glass card */
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-title {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .project-tech {
   font-size: 0.9rem;
   font-weight: 500;
-  color: #777;
+  color: #ccc;
   margin-bottom: 1rem;
 }
 
 .project-description {
   font-size: 1rem;
-  color: #555;
+  color: #eee;
   line-height: 1.5;
 }
 
@@ -59,6 +72,7 @@
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -67,26 +81,25 @@
   font-weight: 500;
   border-radius: 25px;
   text-decoration: none;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .btn-github {
-  background: #333;
+  background: #111;
   color: white;
 }
 
 .btn-github:hover {
-  background: #555;
+  background: #333;
 }
 
 .btn-live {
-  background: #fff;
-  color: #333;
-  border: 2px solid #333;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .btn-live:hover {
-  background: #333;
-  color: white;
+  background: #fff;
+  color: #111;
 }
-

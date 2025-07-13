@@ -1,14 +1,20 @@
 .footer {
+  width: 100vw; 
   background-color: #1a1a1a;
   color: #ccc;
   padding: 3rem 1rem;
   font-family: 'Outfit', sans-serif;
+  box-sizing: border-box; 
+  overflow-x: hidden;
 }
 
 .footer-container {
-  max-width: 1000px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 1rem; 
   text-align: center;
+  box-sizing: border-box;
 }
 
 .footer-brand {
@@ -61,7 +67,6 @@
   margin-top: 1rem;
 }
 
-/* Responsive: two-column layout on wider screens */
 @media (min-width: 600px) {
   .footer-list {
     grid-template-columns: repeat(2, 1fr);
