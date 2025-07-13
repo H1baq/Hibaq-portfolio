@@ -12,7 +12,7 @@ const blogPosts = [
     description:
       "A personal reflection on how I transitioned into frontend development, the challenges I faced, and what keeps me going.",
     image: blogImage,
-    link: "https://how-i-started-my-dev-journey.hashnode.dev/",
+    link: "https://how-i-started-my-dev-journey.hashnode.dev/how-i-started-my-dev-journey",
   },
   {
     title: "Building My First Full Stack App",
